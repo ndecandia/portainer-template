@@ -12,9 +12,22 @@
     ],
     "volumes": ["/var/lib/registry"]
   },
+
   {
     "type": "container",
     "title": "Teamportal versione 6",
+    "description": "Teamportal versione 6 creata da Nicola Marco Decandia",
+    "categories": ["teamportal"],
+    "platform": "linux",
+    "logo": "http://www.seusweb.it//img/teamsystem.jpg",
+    "image": "hermedia/teamportal:v6"
+  },
+
+
+
+  {
+    "type": "container",
+    "title": "Teamportal versione 5",
     "description": "Teamportal versione 6 creata da Nicola Marco Decandia",
     "categories": ["teamportal"],
     "platform": "linux",
@@ -36,7 +49,7 @@
     ],
     "volumes": ["/etc/nginx", "/usr/share/nginx/html"]
   },
-  {
+{
     "type": "stack",
     "title": "Wordpress",
     "description": "Wordpress setup with a MySQL database",
@@ -56,5 +69,4 @@
       }
     ]
   }
-]
-  }
+ }
