@@ -14,6 +14,16 @@
   },
   {
     "type": "container",
+    "title": "Teamportal versione 6",
+    "description": "Teamportal versione 6 creata da Nicola Marco Decandia",
+    "categories": ["teamportal"],
+    "platform": "linux",
+    "logo": "http://www.seusweb.it//img/teamsystem.jpg",
+    "image": "hermedia/teamportal:v5"
+  },
+
+  {
+    "type": "container",
     "title": "Nginx",
     "description": "High performance web server",
     "categories": ["webserver"],
